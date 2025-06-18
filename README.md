@@ -1,4 +1,4 @@
-# 🧑‍💻 Git & GitHub Tutorial for College Students
+# 🧑‍💻 Git & GitHub Tutorial
 
 Welcome to this beginner-friendly guide where you'll learn how to use **Git** and **GitHub** through two simple paths:
 
