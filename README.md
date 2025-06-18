@@ -73,7 +73,7 @@ git branch -d new-feature
 
 ## 🔀 Merge Branch Back to Main
 ```bash
-git switch main
+git checkout main
 git merge new-feature
 ```
 
