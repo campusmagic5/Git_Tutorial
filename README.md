@@ -208,5 +208,4 @@ git push origin improve-layout
 ---
 
 Happy Coding! 🚀  
-Made for students, by students.  
-Feel free to fork, clone, and explore!
+
