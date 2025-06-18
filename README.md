@@ -61,10 +61,11 @@ git push -u origin main
 
 ---
 
-## 🌿 Create & Switch Branches
+## 🌿 Create & Switch Branches / Delete Branch
 ```bash
 git branch new-feature
-git switch new-feature
+git checkout new-feature
+git branch -d new-feature
 ```
 > 📄 *Like photocopying your diary to test new ideas*
 
@@ -80,6 +81,10 @@ git merge new-feature
 
 ## 🔁 Reset to Undo
 
+### To unstage a file
+```bash
+git reset <filename>
+```
 ### Soft Reset (undo commit but keep changes)
 ```bash
 git reset --soft HEAD~1
