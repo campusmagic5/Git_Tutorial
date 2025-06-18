@@ -100,11 +100,24 @@ git reset --hard HEAD~1
 ---
 
 ## 🏷️ Add Tags to Bookmark Versions
+### 1. Lightweight Tag
+Just a pointer to a commit (like a simple bookmark)
 
+No extra info like message, tagger, or date
+```bash
+git tag v1.0
+```
+🔖 Just tags the latest commit silently
+
+### 2. Annotated Tag ✅ (Most Common for Releases)
+Includes tag name, message, creator, date
+
+Stored as a full Git object — better for public releases
 ```bash
 git tag -a v1.0 -m "First Release"
 git push origin v1.0
 ```
+📝 Adds a proper label and description to the commit
 > 🔖 *Sticky note saying "This is Version 1.0!"*
 
 ---
