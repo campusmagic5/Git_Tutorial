@@ -89,7 +89,7 @@ git reset
 ```
 ### Soft Reset (undo commit but keep changes)
 ```bash
-git reset --soft HEAD~1
+git reset HEAD~1
 ```
 
 ### Hard Reset (undo commit and remove changes)
