@@ -54,6 +54,7 @@ Go to GitHub → Create a new repo (without README) → Copy the repo link
 Then:
 ```bash
 git remote add origin https://github.com/your-username/my-college-project.git
+Rename branch
 git branch -M main
 git push -u origin main
 ```
@@ -63,8 +64,7 @@ git push -u origin main
 
 ## 🌿 Create & Switch Branches / Delete Branch
 ```bash
-git branch new-feature
-git checkout new-feature
+git checkout -b new-feature
 git branch -d new-feature
 ```
 > 📄 *Like photocopying your diary to test new ideas*
@@ -75,6 +75,7 @@ git branch -d new-feature
 ```bash
 git checkout main
 git merge new-feature
+git push -u origin main
 ```
 
 ---
@@ -84,6 +85,7 @@ git merge new-feature
 ### To unstage a file
 ```bash
 git reset <filename>
+git reset
 ```
 ### Soft Reset (undo commit but keep changes)
 ```bash
