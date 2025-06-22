@@ -28,6 +28,7 @@ cd my-college-projects
 ```bash
 git init
 ```
+campusmagic5@gmail.com
 > 🔍 *This starts your diary (Git tracking)*
 
 ### 3. Create a File
