@@ -20,8 +20,8 @@ GitHub is your **online locker** — where you store, share, and collaborate on 
 
 ### 1. Create a Local Folder
 ```bash
-mkdir my-college-project
-cd my-college-project
+mkdir my-college-projects
+cd my-college-projects
 ```
 
 ### 2. Initialize Git
@@ -53,7 +53,7 @@ git commit -m "Added introduction"
 Go to GitHub → Create a new repo (without README) → Copy the repo link  
 Then:
 ```bash
-git remote add origin https://github.com/your-username/my-college-project.git
+git remote add origin https://github.com/your-username/my-college-projects.git
 Rename branch
 git branch -M main
 git push -u origin main
